@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.1.dtd" >
+
+<suite name="SampleSuite" verbose="1" >
+    <test name="Test sum" >
+        <parameter name="x" value="1"/>
+        <parameter name="y" value="2"/>
+        <parameter name="sum" value="3"/>
+
+        <classes>
+            <class name="org.example.testng.SumTestXMLInstance" />
+        </classes>
+    </test>
+
+    <test name="Test sum with negative arguments" >
+        <parameter name="x" value="-1"/>
+        <parameter name="y" value="1"/>
+        <parameter name="sum" value="0"/>
+
+        <classes>
+            <class name="org.example.testng.SumTestXMLInstance" />
+        </classes>
+    </test>
+
+    <test name="Test sum with zero" >
+        <parameter name="x" value="0"/>
+        <parameter name="y" value="0"/>
+        <parameter name="sum" value="0"/>
+
+        <classes>
+            <class name="org.example.testng.SumTestXMLInstance" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.1.dtd" >
+
+<suite name="SampleSuite" verbose="1" >
+    <test>
+        <classes>
+            <class name="org.example.testng.SumTestXML" />
+        </classes>
+    </test>
+</suite>
