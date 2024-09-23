@@ -11,10 +11,10 @@ public class SumTestInstance {
     @TestInstanceParameter("x")
     private int x;
 
-    @TestInstanceParameter("x")
+    @TestInstanceParameter("y")
     private int y;
 
-    @TestInstanceParameter("x")
+    @TestInstanceParameter("sum")
     private int sum;
 
     @DataProvider
